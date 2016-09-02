@@ -1,0 +1,49 @@
+body {
+
+}
+
+#logo h1{
+    margin-left: 50px;
+    width: 500px;
+    font-size: 22px;
+    text-align: left;
+    color: #444;
+    float: left;
+}
+
+#main-area {
+    text-align: right;
+    padding:40px 50px 40px 50px;
+    background-color: #EFEFEF;
+    height: 200px;
+    width: 100%;
+}
+
+#login-area form {
+    display: inline-block;
+    width: 300px;
+    margin-right: 180px;
+}
+
+#login-area input{
+    width: 300px;
+    height: 35px;
+    display: inline-block;
+    margin: 3px 0 3px 0;
+    border-radius: 4px;
+}
+
+#unauthenticated {
+    margin: 100px auto;
+    text-align: center;
+}
+
+#logout-area a{
+    display: inline-block;
+    width: 300px;
+    height: 35px;
+    background-color: #fff;
+    color: #444;
+    text-align: center;
+    font-size: 20px;
+}

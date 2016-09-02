@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Now</title>
+</head>
+<body>
+    <div id="register-panel">
+        <h1>Register and use Student Management System for FREE!</h1>
+        <form action="/register" method="POST" accept-charset="utf-8">
+            <input type="text" name="username" placeholder="username" />
+            <input type="password" name="password" placeholder="password" />
+            <input type="submit" name="submit" />
+        </form>
+        {% if error %}
+        <span style="color:red">{{ error }}</span>
+        {% end %}
+    </div>
+</body>
+</html>

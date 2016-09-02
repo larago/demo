@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management System</title>
+    <link rel="stylesheet" type="text/css" href="{{ static_url('style.css') }}">
+</head>
+<body>
+    <div id="login-panel">
+        <h1>Student Management System</h1>
+        <form action="http://127.0.0.1:8000/login" method='POST' accept-charset="utf-8">
+            <input type="text" name="username" placeholder="Your username" / >
+            <input type="password" name="password" placeholder="Enter Password here" />
+            <input type="submit" name="submit" value="Login">
+        </form>
+        <p><a href="/register">New User? Spend 30 secs to register now.</a></p>
+        <span style="color: red"></span>
+    </div>
+</body>
+</html>
